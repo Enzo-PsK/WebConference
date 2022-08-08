@@ -1,0 +1,49 @@
+/* General styles */
+.btn {
+  font-family: "Montserrat", "Helvetica Neue", "Helvetica", "sans-serif";
+  font-weight: 700;
+}
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+.btn-primary {
+  background-color: #428bca;
+  border-color: #428bca;
+}
+.btn-primary:active, .btn-primary:focus,.btn-primary:hover {
+  background-color: #3677b1;
+  border-color: #3677b1;
+  color: white;
+}
+
+/* Header */
+header.masthead {
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("../assets/webConferece_header_bg.jpg");
+}
+
+header.masthead .intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+header.masthead .intro-text .intro-lead-in {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-family: "Droid Serif", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  font-family: "Montserrat", "Helvetica Neue", "Helvetica", "sans-serif";
+}
