@@ -1,4 +1,23 @@
 /* General styles */
+section {
+  padding: 100px 0;
+}
+
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+section h3.section-subheading {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 75px;
+  text-transform: none;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .btn {
   font-family: "Montserrat", "Helvetica Neue", "Helvetica", "sans-serif";
   font-weight: 700;
@@ -11,7 +30,9 @@
   background-color: #428bca;
   border-color: #428bca;
 }
-.btn-primary:active, .btn-primary:focus,.btn-primary:hover {
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
   background-color: #3677b1;
   border-color: #3677b1;
   color: white;
@@ -46,4 +67,9 @@ header.masthead .intro-text .intro-heading {
   font-weight: 700;
   margin-bottom: 25px;
   font-family: "Montserrat", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+
+/* About */
+.topic-heading {
+  margin: 15px 0;
 }
